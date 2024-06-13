@@ -127,8 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
-# EMAIL_HOST_USER = '1bfd22343b072d'
-# EMAIL_HOST_PASSWORD = 'd86d236c34fe97'
+
 DEFAULT_FROM_EMAIL='info@tomi.com'
 EMAIL_PORT = '2525'
 EMAIL_USE_TLS = True
