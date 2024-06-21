@@ -36,7 +36,7 @@ class User(AbstractBaseUser, PermissionsMixin):
 class OneTimePassword(models.Model):
     user=models.OneToOneField(User, on_delete=models.CASCADE)
     code=models.CharField(max_length=6, unique=True)
-    jjfkfklflflfll
+   
 
     
     def __str__(self):
